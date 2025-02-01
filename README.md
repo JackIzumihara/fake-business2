@@ -9,8 +9,7 @@ Greetings business owner! This manual will walk you through the steps to create 
 - [Project Structure](#project-structure)
 - [Step-by-Step Guide](#step-by-step-guide)
   - [1. Brainstorm!](#1-brainstorm)
-  - [2. Download the project!](#2-download-the-project)
-  - [3. Steps listed](#3-steps-listed)
+  - [2. Steps listed](#2-steps-listed)
 - [Extra stuff!](#extra-stuff)
 - [Conclusion](#conclusion)
 
@@ -46,11 +45,9 @@ Before programming your website, think of the following:
 
 If you want to, draw out or imagine what your website would look like.
 
-### 2. Download the project!
-Once you have a general idea of what you want for our website, download the project files.
 - The code will have comments -- looks like this `<!-- Hi, this is a comment -->` -- which will contain steps.
 
-### 3. Steps listed
+### 2. Steps listed
 - **1. )  Link the CSS!**
   - Remember it's `<link rel="__________" href="_____.___">`
   - What are you trying to connect?
