@@ -19,7 +19,7 @@ a:hover {
 
 #logo-container {
     /* Change me! */
-    background-image: url('image-examples/Logo-example.png');
+    background-image: url('https://minecraft.wiki/images/Invicon_MHF_Present2.png?0ba99');
     
     /* Centers the image */
     background-position: center center;
@@ -45,7 +45,7 @@ a:hover {
 
     /* Change me! */
     /* If you want to change back: #7D1128 */
-    background-color: #7D1128;
+    background-color: #4890d3;
 }
 
 #header-name {
@@ -115,7 +115,7 @@ a:hover {
     cursor: pointer;
 
     /* Change me! */
-    background-color: #FF7326;
+    background-color: #64aaec;
     color: ivory;
 
     text-align: center;
