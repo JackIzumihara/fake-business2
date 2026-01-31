@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- 1.) Link the CSS! -->
-        <!-- Remember it's 
-            <link rel="__________" link="_____.___"> 
-            What are you trying to connect?
-            What's the name of the file that you're trying to connect?
-        -->
-
+        <link rel="stylesheet" href="style.css">
         <!-- This is what changes the font of the text, think of it as how
              the letters in a website look. -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- 2.) What do you want to name your business as? -->
-        <title> Name me! </title>
+        <title> token trades </title>
     </head>
     <body>
         <div id="body-container">
@@ -30,7 +24,7 @@
                       is to see how it looks.  -->
 
                 <!-- 3.) What do you want to name your business as? -->
-                <h1 id="header-name"> Name me! </h1>
+                <h1 id="header-name"> Token trades but visual </h1>
             </div>
  
             <div id="shop-container">
@@ -39,20 +33,70 @@
                 <div class="item-container">
                     <div class="item-img">
                         <!-- Find a photo online! -->
-                        <img src="image-examples/item-example1.jpg">
+                        <img src="https://minecraft.wiki/images/Invicon_Diamond_Trim_Netherite_Boots.png?54070">
                     </div>
                     <div class="item-descriptor">
                         <!-- What do you want to name this item as? -->
                         <div class="item-name">
-                            Rubber Chicken
+                            Sculk crawlers
                         </div>
                         <!-- How much does this item cost? -->
-                        <div class="item-price">$5.00</div>
+                        <div class="item-price">3 tokens & 4 Echo shards</div>
+                        <button class="buy-button" onclick="buyPage()"> Buy Now </button>
+                    </div>
+                </div>
+                <div class="item-container">
+                    <div class="item-img">
+                        <!-- Find a photo online! -->
+                        <img src="https://minecraft.wiki/images/Structure_Void_%28item%29_JE2.png?d2f30">
+                    </div>
+                    <div class="item-descriptor">
+                        <!-- What do you want to name this item as? -->
+                        <div class="item-name">
+                            Class reroller
+                        </div>
+                        <!-- How much does this item cost? -->
+                        <div class="item-price">5 tokens</div>
+                    </div>
+                </div>
+                <div class="item-container">
+                    <div class="item-img">
+                        <!-- Find a photo online! -->
+                        <img src="https://minecraft.wiki/images/Glistering_Melon_Slice_JE3_BE2.png?44715">
+                    </div>
+                    <div class="item-descriptor">
+                        <!-- What do you want to name this item as? -->
+                        <div class="item-name">
+                            32 OP food
+                        </div>
+                        <!-- How much does this item cost? -->
+                        <div class="item-price">1 token</div>
+                    </div>
+                </div>
+
+                <div class="item-container">
+                    <div class="item-img">
+                        <!-- Find a photo online! -->
+                        <img src="https://minecraft.wiki/images/Held_Netherite_Spear_JE2_BE1.png?bde2c">
+                    </div>
+                    <div class="item-descriptor">
+                        <!-- What do you want to name this item as? -->
+                        <div class="item-name">
+                            Lunge 7 spear (unbreakable)
+                        </div>
+                        <!-- How much does this item cost? -->
+                        <div class="item-price">2 tokens</div>
+
                     </div>
                 </div>
 
             </div>
         </div>
+        <script>
+    function buyPage() {
+        window.location.assign("thankyou-page.html");
+    }
+</script>
     </body>
     
 </html>
